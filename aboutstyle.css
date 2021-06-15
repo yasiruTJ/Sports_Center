@@ -1,0 +1,321 @@
+body{
+    background-image: url(aboutus.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Tahoma, Arial, sans-serif;
+}
+.heading{
+    margin-top: 5%;
+    background-image: url(sportsstore.jpg);
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.heading h1{
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 45px;
+    text-align: center;
+    color: black;
+}
+
+/* NAVIGATION BAR */
+
+.logopage
+{
+	position:fixed;
+	top:-5px;
+	left:0px;
+	width:60px;
+	height:55px;
+	z-index:26;
+}
+
+.navibar li
+{
+	display:inline;
+	padding: 20px;
+	margin:10px;
+	position:relative;
+	top:12px;
+	left:-5px;
+	
+}
+.navibar a 
+{
+	color:white;
+	text-decoration:none;
+	padding:20px;
+	transition: 1s;
+}
+.navibar
+{
+	position:fixed;
+	top:0;
+	left: -5px;
+	width:100%;
+	height:50px;
+	margin:0;
+	text-align:center;
+	background-color:black;
+	overflow:hide;
+	z-index:25;
+}
+
+.navibar a:hover 
+{
+	background-color:white;
+	color:black;
+	transition: 1s;
+}
+
+/* Info about Site */
+
+.info{
+    width: 60%;
+    height: 40%;
+    margin-left: 20%;
+    margin-right: 25%;    
+    margin-top: 5%;
+}
+
+.info p{
+    font-family: "Trirong", serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+/* Brands */
+
+.brands{
+    margin-top: 5%;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.brands h1{
+    margin: 0;
+    font-family:  "Sofia", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+#adidas, #puma, #asics, #nike, #skechers, #northface{
+    height: 100px;
+    width: 100x;
+    display: inline;
+    padding-left: 35px;
+    margin-top: 5%;
+}
+
+/* Three Circles */
+
+.first{
+    margin-top: 5%;
+    padding-left: 18%;
+}
+
+.circle1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    border-radius: 50%;
+    position: relative;
+    background-color: ivory;
+    display: inline-block;
+    margin-left:70px;
+}
+
+.content1, .content2, .content3{
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+}
+
+.circle2{
+    width: 200px;
+    height: 200px;
+    border: 2px dashed red;
+    border-radius: 50%;  
+    position: relative;
+    background-color: ivory;
+    display: inline-block;
+    margin-left:70px;
+}
+
+.circle3{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 50%;   
+    position: relative;
+    background-color: ivory;
+    display: inline-block;
+    margin-left:70px;
+}
+
+/* World Map GIF */
+
+.world{
+    margin-top:5% ;
+}
+
+.world h1{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family:  "Sofia", sans-serif;
+    font-weight: 12px;
+}
+
+#worldmap{
+    margin-top: 5%;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* intro about us */
+
+.intro{
+    width: 60%;
+    height: 40%;
+    margin-left: 20%;
+    margin-right: 25%;    
+    margin-top: 5%;
+}
+
+.intro h1{
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.intro p{
+    font-family: "Trirong", serif;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 12px;
+}
+
+/* Developers */
+
+.developers{
+    margin-top: 5%;
+    padding-bottom: 20%;
+}
+
+.developers h1{
+    margin-left: 44%; 
+    font-size: 30px;
+    font-family: "Sofia", sans-serif;  
+    margin-bottom: 20px;
+}
+
+
+#tharusha, #sheran, #menura, #yasiru{
+    margin-top: 3%;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile1 , .profile2 , .profile3, .profile4 {
+    float: left;
+    margin-left: 5%;
+}
+
+.pro1, .pro2 , .pro3 , .pro4 {
+    width: 250x;
+    font-size: 20px;
+    font-family:  "Trirong", serif;
+    background-color: lavender;
+    text-align: center;
+    visibility: hidden; 
+}
+
+.profile1:hover .pro1{
+    visibility: visible;
+}
+
+.profile2:hover .pro2{
+    visibility: visible;
+}
+
+.profile3:hover .pro3{
+    visibility: visible;
+}
+
+.profile4:hover .pro4{
+    visibility: visible;
+}
+
+
+/* footer */
+
+.footer 
+{
+	position:absolute;
+	bottom: -2500px;
+    left: 0;
+    right: 0;
+    margin: auto;
+	width:100%;
+	color:#ffffff;
+	background-color:#1c1c1c;
+}
+
+
+#backToTop
+{
+	position:absolute;
+	top:-150px;
+	left:1320px;
+	width:68px;
+	height:68px;
+	transition:width 0.5s, height 0.5s;
+}
+
+#backToTop:hover
+{
+	width:90px;
+	height:90px;
+}
+.footer a
+{
+	text-decoration:none;
+}
+#pEditor
+{
+	color:white;
+	position:relative;
+	left:1200px;
+	top:-10px;
+}
+
+#pgEidt
+{
+	position:relative;
+	left:1205px;
+	top:-8px;
+	width:68px;
+	height:68px;
+}

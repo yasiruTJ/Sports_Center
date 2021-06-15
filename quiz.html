@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel= "stylesheet" href="quizstyle.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Roboto">
+	<title> Quiz </title>
+	<script src="quizf.js"></script>
+</head>
+<body>
+    <div>
+        <li><img src = 'logo.jpeg'alt='logopage' class = "logopage"></li>
+        <ul class = 'navibar'>
+            <b>
+            <li><a href = 'https://w1809910.users.ecs.westminster.ac.uk/'>Home</a></li>
+            <li><a href = 'https://w1809910.users.ecs.westminster.ac.uk/query.html'>Query</a></li>
+            <li><a href = 'https://w1809740.users.ecs.westminster.ac.uk/public_html/shop.html'>Shop</a></li>
+            <li><a href = 'https://w1809743.users.ecs.westminster.ac.uk/quiz.html'>Quiz</a></li>
+            <li><a href = 'https://w1809914.users.ecs.westminster.ac.uk/Gallery.html'>Gallery</a></li>
+            <li><a href = 'https://w1809743.users.ecs.westminster.ac.uk/about.html'>About Us</a></li>
+            <li><a href = 'https://w1809914.users.ecs.westminster.ac.uk/SiteMap.html'>Site Map</a></li>
+            </b>
+        </ul>	
+    </div>
+	<div class = "startform">
+		<div class= "heading">
+			<h2>Quiz Form</h2>
+		</div>
+		<form id = "quizform" name="form2">
+		<div class="qform">
+				<label for ="username"> Name : </label>
+				<input type = "text" name = "name" id="username" maxlength= "20" placeholder="Enter Your Name Here">
+		</div>
+		<div class="qformy">
+				<input type="radio" name = "level" id="easy" value="easypage">
+				<label for="easy"> Easy </label>
+		</div>
+		<div class="qformy">
+				<input type="radio" name = "level" id="medium" value="mediumpage">
+				<label for="medium"> Medium </label>
+		</div>
+		<div class="qformy">
+				<input type="radio" name = "level" id="hard" value="hardpage">
+				<label for="hard"> Hard </label>
+		</div>
+				<button type="submit" id="start" onclick="start_game()"> Start! </button>
+		</form>	
+	</div>
+	
+	<div class="quizinfo">
+		<div class="heading2">
+			<h2> Quiz Instruction </h2>
+		</div>
+		<ul>
+		
+			<li>You Have <b>2 Minutes</b> To Complete The <b>Easy</b> Quiz </li>
+			<li>You Have <b>3 Minutes</b> To Complete The <b>Medium</b> Quiz </li>
+			<li>You Have <b>5 Minutes</b> To Complete The <b>Hard Quiz</b> </li>
+			<li>Each Correct Answer You Provide Is Rewarded With <b>2 Marks</b></li>
+			<li>Each Wrong Answer You Provide Is Rewarded With <b>-1 Mark</b></li>
+			<li>Final Result Will Get Displayed At <b>The End Of The Quiz</b></li>
+		</ul>
+	</div>
+	
+
+    <footer class = 'footer'>
+        <h2>For more Information</h2>
+            <table>
+                <tr>
+                    <td>Contact No</td>
+                    <td>:071205789</td>
+                </tr>
+                <tr>
+                    <td> Email- Add</td>
+                    <td>:DailyFootball@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Office-Add</td>
+                    <td>:10/3 Greenlandslane, Colombo05</td>
+                </tr>
+            </table>
+        <a href = 'https://w1809743.users.ecs.westminster.ac.uk/yasiruprofile.html'><img src = 'tst16.png' alt = 'PageEditor' id = "pgEidt" >
+        <br>
+        <p id = 'pEditor'>Page Editor</p>
+        </a>
+        <a href = '#top'><img src = 'tst12.png' alt = 'backToTop' id = 'backToTop'></a>
+    </footer>
+
+</div>
+</body>
+</html>
